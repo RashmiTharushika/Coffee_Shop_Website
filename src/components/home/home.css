@@ -1,0 +1,40 @@
+.home{
+    background:center / cover url(../../assets/img/bg.png) ;
+    min-height: calc(100vh + var(--header-height));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home__container{
+    width: 100%;
+
+}
+
+.home__content{
+    max-width:700px ;
+}
+
+.home__subtitle{
+    margin-left: 3.5rem;
+    color: var(--main-color);
+    font-size: var(--larger-font-size);
+    font-weight: var(--weight-500);
+    line-height: 0.6rem;
+}
+
+.home__title{
+    font-size: var(--big-font-size);
+    font-weight: var(--weight-600);
+    margin-left: 3rem;
+    color: var(--main-color);
+}
+
+.home__btns{
+    display: flex;
+    column-gap: 2rem;
+    margin-left: 13rem;
+    font-weight: var(--weight-600);
+
+}

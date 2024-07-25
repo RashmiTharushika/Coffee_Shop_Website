@@ -1,0 +1,49 @@
+.about{
+    background:center / cover url(../../assets/img/about-bg.png) ;
+    min-height: calc(100vh + var(--header-height));
+    padding-bottom: 0;
+
+}
+
+.about__grid{
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.about__img-wrapper{
+    position: relative;
+    padding-left: 1.5rem;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--radius);
+
+}
+
+.about__img{
+    width: 400px;
+    height: 500px;
+    border-radius: var(--radius);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.about__img-wrapper::before{  /* ::before - add extra content or style to an element without modifying the HTML structure. */
+    content: '';
+    position: absolute;
+    bottom: -1.125rem;
+    left: 0;
+    background-color: var(--first-color);
+    width: 100%;
+    /* height: 100%; */
+    z-index: -1;   /* control the stacking order of overlapping elements(most important elements are displayed on top)*/
+
+}
+
+
+.about__description{
+    color: var(--title-color);
+    z-index: 1;
+
+}
+

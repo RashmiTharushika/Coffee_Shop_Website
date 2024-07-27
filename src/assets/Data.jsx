@@ -15,6 +15,7 @@ import gallery6 from './img/gallery-6.jpg';
 
 import testimonial1 from './img/customer-1.jpg';
 import testimonial2 from './img/Customer-2.png';
+import testimonial3 from './img/customer-3.jpg';
 
 
 export const links = [
@@ -132,6 +133,7 @@ export const gallery = [
       service: 'Customer',
       description:
         'There are many variations passages of the available but the majority have suffered to the alteration in some form by injected of humour or randomised words.',
+      rating: 4 // Rating out of 5,
     },
     {
       id: 2,
@@ -140,6 +142,16 @@ export const gallery = [
       service: 'Customer',
       description:
         'There are many variations passages of the available but the majority have suffered to the alteration in some form by injected of humour or randomised words.',
+      rating: 4 // Rating out of 5,
     },
+    {
+      id: 3,
+      img: testimonial3,
+      title: 'Celina',
+      service: 'Customer',
+      description:
+        'There are many variations passages of the available but the majority have suffered to the alteration in some form by injected of humour or randomised words.',
+      rating: 5 // Rating out of 5,
+      },
 ];
   

@@ -1,0 +1,80 @@
+.footer {
+    padding: 20px 0;
+    background: url('../../assets/img/footer-img.png') no-repeat center center;
+    background-size: 100% 100%; /* Stretch the image to cover the entire area */
+    color: #fff;
+    text-align: center;
+    background-attachment:scroll; /* Keep the background image fixed during scrolling */
+    background-position: center center; /* Start the background image from the top */
+    height: 300px; /* Adjust this value based on your design requirements */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align content to the bottom */
+  
+  }
+  
+  .footer__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 1rem; /* Space between content and footer's bottom */
+  }
+  
+  .footer__left,
+  .footer__middle,
+  .footer__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer__socials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .footer__title {
+    font-family: var(--body-font);
+    font-weight: var(--weight-700);
+    font-size:var(--larger-font-size);
+    color: var(--main-color);
+    margin-bottom: 10px;
+  }
+  
+  .footer__logo {
+    max-width: 100px;
+    height: auto;
+
+  }
+  
+  .footer__socials {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px; /* Space between the title and social links */
+  }
+  
+  .footer__social-links {
+    color: #fff;
+    font-size: 20px;
+    transition: 0.5s var(--transition);
+  }
+  
+  .footer__bottom {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+
+  /* =========Hover Effect========= */
+
+    
+  .footer__social-links:hover {
+    transform: translate3d(-0.3rem,-0.3rem,-0.3rem);
+  }

@@ -1,7 +1,8 @@
 .about{
     background:center / cover url(../../assets/img/about-bg.png) ;
-    min-height: calc(100vh + var(--header-height));
+    min-height:90vh;
     padding-bottom: 0;
+    background-size: 100% 100%;
 
 }
 

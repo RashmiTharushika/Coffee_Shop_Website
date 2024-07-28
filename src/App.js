@@ -8,6 +8,7 @@ import Home from './components/home/Home';
 import Menu from './components/menu/Menu';
 import Offer from './components/offer/Offer';
 import Testimonial from './components/testimonial/Testimonial';
+import Footer from './components/footer/Footer';
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <Chef/>
       <Offer/>
       <Testimonial/>
+      <Footer/>
 
     </div>
   );
